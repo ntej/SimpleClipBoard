@@ -1,4 +1,4 @@
-# SimpleClipBoard
+# SimpleClipBoard v 1.0
 Simple Clipboard is a easy to use android application with following functionalities and features
 -Paste text from system clipboard
 -Copy text to system clipboard
