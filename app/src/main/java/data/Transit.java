@@ -4,6 +4,7 @@ package data;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
 import www.ntej.com.simpleclipboard.MainActivity;
 import www.ntej.com.simpleclipboard.R;
 

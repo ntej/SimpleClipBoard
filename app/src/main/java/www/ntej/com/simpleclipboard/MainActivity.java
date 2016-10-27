@@ -1,12 +1,13 @@
 package www.ntej.com.simpleclipboard;
+
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -14,7 +15,8 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.util.Set;
-import data.*;
+
+import data.FileHandler;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -51,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     }
+
 
     @Override
     protected void onStop() {

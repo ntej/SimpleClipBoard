@@ -10,6 +10,7 @@ import java.io.OutputStreamWriter;
 /**
  * Created by navatejareddy on 10/08/16.
  */
+
 public class FileHandler {
 
     /**Checks file exists or not**/
